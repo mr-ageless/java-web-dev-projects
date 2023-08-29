@@ -1,30 +1,5 @@
 package org.launchcode;
 
-import java.util.ArrayList;
-import java.util.Date;
-
 public class Menu {
-    private Date lastUpdated;
-    private ArrayList<MenuItem> items;
-
-    public Menu(Date d, ArrayList<MenuItem> i) {
-        this.lastUpdated = d;
-        this.items = i;
-    }
-
-    public void setLastUpdated(Date lastUpdated) {
-        this.lastUpdated = lastUpdated;
-    }
-
-    public void setItems(ArrayList<MenuItem> items) {
-        this.items = items;
-    }
-
-    public Date getLastUpdated() {
-        return lastUpdated;
-    }
-
-    public ArrayList<MenuItem> getItems() {
-        return items;
-    }
+// Determine a method to call in menu items to populate the menu. The menu will effectively only be used to hold menu items, and all the relevant information will be conveyed via the item objects.
 }
